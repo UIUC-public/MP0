@@ -41,6 +41,8 @@ public class MP0 {
         Integer[] indexes = getIndexes();
 
     	//TO DO
+	$ javac MPO.java
+	$ cat input.txt | java MP0 1
 
 
 		return topItems;
