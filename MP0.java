@@ -41,10 +41,16 @@ public class MP0 {
         Integer[] indexes = getIndexes();
 
     	//TO DO
+	    
 	$ javac MPO.java
 	$ cat input.txt | java MP0 1
-
-
+	
+	 StringTokenizer st = stopWordsArray;
+     while (st.hasMoreTokens()) {
+         System.out.println(st.nextToken());
+     }
+	
+	
 		return topItems;
     }
 
