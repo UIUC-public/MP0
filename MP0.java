@@ -23,7 +23,6 @@ public class MP0 {
         this.userName = userName;
     }
 
-
     public Integer[] getIndexes() throws NoSuchAlgorithmException {
         Integer n = 10000;
         Integer number_of_lines = 50000;
@@ -49,8 +48,7 @@ public class MP0 {
      while (st.hasMoreTokens()) {
          System.out.println(st.nextToken());
      }
-	
-	
+		
 		return topItems;
     }
 
