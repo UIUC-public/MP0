@@ -23,7 +23,6 @@ public class MP0 {
         this.userName = userName;
     }
 
-
     public Integer[] getIndexes() throws NoSuchAlgorithmException {
         Integer n = 10000;
         Integer number_of_lines = 50000;
@@ -41,8 +40,15 @@ public class MP0 {
         Integer[] indexes = getIndexes();
 
     	//TO DO
-
-
+	    
+	$ javac MPO.java
+	$ cat input.txt | java MP0 1
+	
+	 StringTokenizer st = stopWordsArray;
+     while (st.hasMoreTokens()) {
+         System.out.println(st.nextToken());
+     }
+		
 		return topItems;
     }
 
